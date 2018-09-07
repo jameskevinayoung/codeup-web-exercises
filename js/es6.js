@@ -41,7 +41,7 @@ const users = [
 
 const name = 'james';
 const email = 'james.kevin.a.young@gmail';
-const languages = ['html','css','javascript','java'];
+const languages = ['html', 'css', 'javascript', 'java'];
 
 // TODO: rewrite the object literal using object property shorthand
 // users.push({
@@ -50,10 +50,7 @@ const languages = ['html','css','javascript','java'];
 //     languages: languages
 // });
 
-users.push({name,email,languages});
-
-
-
+users.push({name, email, languages});
 
 
 // TODO: replace `var` with `let` in the following variable declarations
@@ -69,7 +66,7 @@ let names = [];
 //     return emails.push(user.email);
 // });
 
-      // users.forEach(user) => emails.push(user.email);
+// users.forEach(user) => emails.push(user.email);
 
 //only use the equals sign when assigning a function to a variable not loops because they have a function designed into it.
 
@@ -81,21 +78,14 @@ let names = [];
 //     return names.push(user.name);
 // });
 
-        // users.forEach =user =>  names.push(user.name);
+// users.forEach =user =>  names.push(user.name);
 
 // THE COMBINED APPROACH
 
 users.forEach(user => {
     emails.push(user.email);
     names.push(user.name);
-    console.log(user);
-    })
-
-
-
-
-
-
+})
 
 
 // TODO: replace `var` with `let` in the following declaration
@@ -105,8 +95,7 @@ users.forEach(user => {
 let developers = [];
 
 
-
-users.forEach(function(user) {
+users.forEach(function (user) {
     // TODO: rewrite the code below to use object destructuring assignment
     //       note that you can also use destructuring assignment in the function
     //       parameter definition
@@ -114,16 +103,14 @@ users.forEach(function(user) {
     // const email = user.email;
     // const languages = user.languages;
 
-    const {name, email,languages} = user;
+    const {name, email, languages} = user;
 
     // TODO: rewrite the assignment below to use template strings
     // developers.push(name + '\'s email is ' + email + name + ' knows ' + languages.join(', '));
     developers.push(`${name}'s email is ${email}. ${name} knows ${languages.join(', ')}`);
 
-    console.log(developers);
 
 });
-
 
 
 // TODO: Use `let` for the following variable
@@ -131,12 +118,6 @@ users.forEach(function(user) {
 // var list = '<ul>';
 
 let list = '<ul>';
-
-
-
-
-
-
 
 
 // TODO: rewrite the following loop to use a for..of loop
@@ -147,7 +128,6 @@ let list = '<ul>';
 //     list += '<li>' + developer + '</li>';
 // });
 // list += '</ul>';
-
 
 
 //FOR...OF LOOP CONSTRUCTION
@@ -163,9 +143,8 @@ let list = '<ul>';
 
 //example 2 w template strings
 
-for (let developer of developers){
-    list+= `<li>${developer}</li>`;
+for (let developer of developers) {
+    list += `<li>${developer}</li>`;
 }
-list+= '</ul>';
-
-console.log(list);
+list += '</ul>';
+document.getElementById('list').innerHTML = list;
