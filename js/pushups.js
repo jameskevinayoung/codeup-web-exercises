@@ -299,46 +299,47 @@
 //
 // })();
 
-// var dogs = [
-//     {
-//         name:"Annie",
-//         age: 3,
-//         breed: "labradoodle",
-//         sex: "female",
-//     },
-//     {
-//         name: "Roxeanne",
-//         age: 7,
-//         breed: "Cocker Spaniel",
-//         sex: "female",
-//         legs: 3,
-//     },
-//     {
-//         name:"Roscoe",
-//         age: 5,
-//         breed: "American Pit-Bull",
-//         sex: "male",
-//         nobleHound: true,
-//     },
-//     {
-//         name:"Frisky",
-//         age: 6,
-//         breed: "German Shepard",
-//         sex: "male"
-//     },
-//     {
-//         name:"Pookiepoo",
-//         age: 2,
-//         breed: "Chihuahua",
-//     },
-//     {
-//         name:"Snoopadoop",
-//         age: 2,
-//         breed: "Cockapoo",
-//         nobleHound: true,
-//     },
-//
-// ]
+let dogs = [
+    {
+        name:"Annie",
+        age: 3,
+        breed: "labradoodle",
+        sex: "female",
+    },
+    {
+        name: "Roxanne",
+        age: 7,
+        breed: "Cocker Spaniel",
+        sex: "female",
+    },
+    {
+        name:"Roscoe",
+        age: 5,
+        breed: "American Pit-Bull",
+        sex: "male",
+        nobleHound: true,
+    },
+    {
+        name:"Frisky",
+        age: 6,
+        breed: "German Shepard",
+        sex: "male"
+    },
+    {
+        name:"Pookie",
+        age: 2,
+        breed: "American Pit-Bull",
+        sex: "female",
+    },
+    {
+        name:"Snoopadoop",
+        age: 2,
+        breed: "Cockapoo",
+        nobleHound: true,
+        sex: "female",
+    },
+
+];
 
 // write a function that receives an array of animals
 // loops over them, and writes out the ones that
@@ -397,23 +398,23 @@
 // }
 
 
-//RECURSIVE PUSHUP USING FACTORIAL
-
-function factorial(n){
-    if (n == 0){
-        return 1;
-    }else {
-        return factorial(n - 1) * n;
-    }
-}
-console.log(factorial(12));
-
-/** factorial(7) = 5040
-* return factorial(6) * 7; -> 720 * 7 -> 5040
-* return factorial(5) * 6; -> 120* 6 -> 720
-* return factorial(4) * 5; -> 24 * 5 -> 120
-* return factorial(3) * 4; -> 6 * 4 -> 24
-* return factorial(2) * 3; -> 2 * 3 -> 6
-* return factorial(1) * 2; -> 1 * 2 -> 2
-* return factorial(0) * 1; -> 1 * 1 -> 1
-*/
+// //RECURSIVE PUSHUP USING FACTORIAL
+//
+// function factorial(n){
+//     if (n == 0){
+//         return 1;
+//     }else {
+//         return factorial(n - 1) * n;
+//     }
+// }
+// console.log(factorial(12));
+//
+// /** factorial(7) = 5040
+// * return factorial(6) * 7; -> 720 * 7 -> 5040
+// * return factorial(5) * 6; -> 120* 6 -> 720
+// * return factorial(4) * 5; -> 24 * 5 -> 120
+// * return factorial(3) * 4; -> 6 * 4 -> 24
+// * return factorial(2) * 3; -> 2 * 3 -> 6
+// * return factorial(1) * 2; -> 1 * 2 -> 2
+// * return factorial(0) * 1; -> 1 * 1 -> 1
+// */
