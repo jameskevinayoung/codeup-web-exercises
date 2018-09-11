@@ -83,7 +83,7 @@
     "quantity": 5,
     "categories": [
       "tool",
-      " hand tool",
+      " hand tool"
     ],
     "price": 7
   },
@@ -484,5 +484,5 @@
       "tool"
     ],
     "price": 10
-  },
+  }
 ]
