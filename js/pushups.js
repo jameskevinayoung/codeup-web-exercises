@@ -418,3 +418,32 @@ let dogs = [
 // * return factorial(1) * 2; -> 1 * 2 -> 2
 // * return factorial(0) * 1; -> 1 * 1 -> 1
 // */
+
+
+
+//PUSH UP SEPT 11,2018 map/filter/reduce practice and forEach
+
+//USE MAP
+
+let dogAges = dogs.map(dog => dog.age);
+
+console.log(dogAges);
+
+//USE FILTER
+
+let nobleBreeds = dogs.filter(dog => dog.nobleHound);
+
+console.log(nobleBreeds);
+
+//USE REDUCE
+
+let averageDogAge = dogs.reduce((total, dog) =>{
+
+    return total + dog.age/dogs.length;
+
+}, 0);
+
+console.log(parseInt(averageDogAge));
+
+//USE FOREACH
+
