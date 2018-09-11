@@ -425,25 +425,44 @@ let dogs = [
 
 //USE MAP
 
-let dogAges = dogs.map(dog => dog.age);
+// let dogAges = dogs.map(dog => dog.age);
+//
+// console.log(dogAges);
+//
+// //USE FILTER
+//
+// let nobleBreeds = dogs.filter(dog => dog.nobleHound);
+//
+// console.log(nobleBreeds);
+//
+// //USE REDUCE
+//
+// let averageDogAge = dogs.reduce((total, dog) =>{
+//
+//     return total + dog.age/dogs.length;
+//
+// }, 0);
+//
+// console.log(parseInt(averageDogAge));
+//
+// //USE FOREACH
 
-console.log(dogAges);
+function getFibonacci(number) {
 
-//USE FILTER
+    var first = 1;
+    var second = 0;
+    var numArray= [];
+    var next;
 
-let nobleBreeds = dogs.filter(dog => dog.nobleHound);
+    while (number >= 0){
+        next = first;
+        first = second;
+        second = next;
+        number--;
 
-console.log(nobleBreeds);
+        numArray.push(number);
+    }
 
-//USE REDUCE
-
-let averageDogAge = dogs.reduce((total, dog) =>{
-
-    return total + dog.age/dogs.length;
-
-}, 0);
-
-console.log(parseInt(averageDogAge));
-
-//USE FOREACH
-
+    return numArray;
+}
+console.log(getFibonacci(10));
