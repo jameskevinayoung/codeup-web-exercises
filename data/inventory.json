@@ -4,14 +4,15 @@
     "title": "Hammer",
     "quantity": 500,
     "categories": [
-      "tool"
+      "tool",
+      " hand tool"
     ],
     "price": 20
   },
   {
     "id": 2,
     "title": "Power Drill",
-    "quantity": 5,
+    "quantity": 546,
     "categories": [
       "tool",
       " powered"
@@ -21,7 +22,7 @@
   {
     "id": 3,
     "title": "Mower",
-    "quantity": 5,
+    "quantity": 2005,
     "categories": [
       "tool",
       " gas",
@@ -32,9 +33,10 @@
   {
     "id": 4,
     "title": "Screwdrivers",
-    "quantity": 25,
+    "quantity": 13225,
     "categories": [
-      "tool"
+      "tool",
+      " hand tool"
     ],
     "price": 4
   },
@@ -60,7 +62,7 @@
   {
     "id": 7,
     "title": "Mallet",
-    "quantity": 500,
+    "quantity": 6900,
     "categories": [
       "tool",
       " hand tool"
@@ -70,7 +72,7 @@
   {
     "id": 8,
     "title": "Axe",
-    "quantity": 5,
+    "quantity": 5114,
     "categories": [
       "tool",
       " hand tool"
@@ -80,7 +82,7 @@
   {
     "id": 9,
     "title": "Level",
-    "quantity": 5,
+    "quantity": 34567,
     "categories": [
       "tool",
       " hand tool"
@@ -90,7 +92,7 @@
   {
     "id": 10,
     "title": "Handsaw",
-    "quantity": 25,
+    "quantity": 7234,
     "categories": [
       "tool",
       " hand tool"
@@ -110,7 +112,7 @@
   {
     "id": 12,
     "title": "Monkey Wrench",
-    "quantity": 5,
+    "quantity": 987,
     "categories": [
       "tool",
       " hand tool"
@@ -121,11 +123,10 @@
   {
     "id": 13,
     "title": "Chisel",
-    "quantity": 5,
+    "quantity": 3,
     "categories": [
       "tool",
-      " gas",
-      " outdoor"
+      " hand tool"
     ],
     "price": 7
   },
@@ -161,7 +162,7 @@
   {
     "id": 17,
     "title": "Plane",
-    "quantity": 500,
+    "quantity": 7500,
     "categories": [
       "tool",
       " hand tool"
@@ -171,7 +172,7 @@
   {
     "id": 18,
     "title": "Power Sander",
-    "quantity": 5,
+    "quantity": 500,
     "categories": [
       "tool",
       " powered"
@@ -181,7 +182,7 @@
   {
     "id": 19,
     "title": "Wire",
-    "quantity": 5,
+    "quantity": 5786,
     "categories": [
       "tool"
     ],
@@ -190,7 +191,7 @@
   {
     "id": 20,
     "title": "Router",
-    "quantity": 25,
+    "quantity": 2125,
     "categories": [
       "tool"
     ],
@@ -208,7 +209,7 @@
   {
     "id": 22,
     "title": "Power Saw",
-    "quantity": 5,
+    "quantity": 500,
     "categories": [
       "tool",
       " powered"
@@ -218,17 +219,17 @@
   {
     "id": 23,
     "title": "Bolt",
-    "quantity": 5,
+    "quantity": 5000,
     "categories": [
       "hardware"
 
     ],
-    "price": 200
+    "price": 2
   },
   {
     "id": 24,
     "title": "Wire stripper",
-    "quantity": 25,
+    "quantity": 250,
     "categories": [
       "tool"
     ],
@@ -246,7 +247,7 @@
   {
     "id": 26,
     "title": "Wrench",
-    "quantity": 4000,
+    "quantity": 3000,
     "categories": [
       "tool"
     ],
@@ -255,34 +256,34 @@
   {
     "id": 27,
     "title": "Nut",
-    "quantity": 500,
+    "quantity": 12500,
     "categories": [
       "hardware"
     ],
-    "price": 20
+    "price": 2
   },
   {
     "id": 28,
     "title": "Washer",
-    "quantity": 5,
+    "quantity": 5000,
     "categories": [
       "hardware"
     ],
-    "price": 100
+    "price": 2
   },
   {
     "id": 29,
     "title": "Wood Screw",
-    "quantity": 5,
+    "quantity": 5500,
     "categories": [
       "hardware"
     ],
-    "price": 200
+    "price": 2
   },
   {
     "id": 30,
     "title": "Drill Bit",
-    "quantity": 25,
+    "quantity": 2500,
     "categories": [
       "hardware",
       " set"
@@ -302,7 +303,7 @@
   {
     "id": 32,
     "title": "Generator",
-    "quantity": 5,
+    "quantity": 50,
     "categories": [
       "outdoor",
       " powered"
@@ -312,7 +313,7 @@
   {
     "id": 33,
     "title": "Machine Press",
-    "quantity": 5,
+    "quantity": 15,
     "categories": [
       "indoor",
       " powered"
@@ -322,7 +323,7 @@
   {
     "id": 34,
     "title": "Measuring Tape",
-    "quantity": 25,
+    "quantity": 2125,
     "categories": [
       "tool",
       " hand tool"
@@ -332,7 +333,7 @@
   {
     "id": 35,
     "title": "Electric Trimmer",
-    "quantity": 2500,
+    "quantity": 200,
     "categories": [
       "outdoor",
       " powered"
@@ -356,28 +357,28 @@
     "categories": [
       "tool"
     ],
-    "price": 20
+    "price": 6
   },
   {
     "id": 38,
     "title": "Light Bulbs",
-    "quantity": 5,
+    "quantity": 4768,
     "categories": [
       "tool",
       " powered"
     ],
-    "price": 100
+    "price": 15
   },
   {
     "id": 39,
     "title": "Extension Cord",
-    "quantity": 5,
+    "quantity": 5234,
     "categories": [
       "tool",
       " gas",
       " outdoor"
     ],
-    "price": 200
+    "price": 5
   },
   {
     "id": 40,
@@ -401,7 +402,7 @@
   {
     "id": 42,
     "title": "Boots",
-    "quantity": 5,
+    "quantity": 1357,
     "categories": [
       "apparel",
       " shoes"
@@ -417,7 +418,7 @@
       " gas",
       " outdoor"
     ],
-    "price": 200
+    "price": 10
   },
   {
     "id": 44,
@@ -446,7 +447,7 @@
       "apparel",
       " gloves"
     ],
-    "price": 170
+    "price": 5
   },
   {
     "id": 47,
@@ -464,25 +465,25 @@
     "categories": [
       "tool"
     ],
-    "price": 100
+    "price": 20
   },
   {
     "id": 49,
     "title": "Flood Lamp",
-    "quantity": 5,
+    "quantity": 1545,
     "categories": [
       "tool",
       " outdoor"
     ],
-    "price": 200
+    "price": 12
   },
   {
     "id": 50,
     "title": "Flashlight",
-    "quantity": 25,
+    "quantity": 1746,
     "categories": [
       "tool"
     ],
-    "price": 10
+    "price": 8
   }
 ]
