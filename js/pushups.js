@@ -447,22 +447,79 @@ let dogs = [
 //
 // //USE FOREACH
 
-function getFibonacci(number) {
+// function getFibonacci(number) {
+//
+//     var first = 0;
+//     var second = 1;
+//     var numArray= [];
+//     var next;
+//
+//     for(var i = 0; i < number.length; i++){
+//         if(i === 0){
+//             first === 1;
+//             console.log(numArray);
+//         // }else if(i < number.length){
+//         //     next = first + second;
+//         //     return numArray.push(next)
+//         }
+//     }
+//
+//     return first;
+// }
+// console.log(getFibonacci(10))
 
-    var first = 1;
-    var second = 0;
-    var numArray= [];
-    var next;
+/**
+ *
+ *
+ *
+ *
+ * */
 
-    while (number >= 0){
-        next = first;
-        first = second;
-        second = next;
-        number--;
-
-        numArray.push(number);
+const getFibonacci = n => { //function that takes a number and returns the fibonacci sequence
+    let fibArray = [1,1]; //initialize array with the first two indexes [0,1], but since the index
+    for(let i =1 ; i < n-1;i++){ //use loop to increment the sequence beginning with i = 1 because it was the last index of the array
+        //i will increment while it is less than the parameter - 1,because index starts at 0
+        fibArray.push(fibArray[i] + fibArray[i-1]) //push the current i index plus the index of i - 1 (the previous index) to array
     }
-
-    return numArray;
+    return fibArray; //return the array
 }
+
+
 console.log(getFibonacci(10));
+
+
+// const getFib = n =>{
+//     let fib = [];
+//     if(n ===0) fib.push(0)
+//     else if (n ==1) fib.push(1)
+//     else fib.push(getFib[n-1] + getFib[n-2]);
+//     return fib.join;
+// }
+// console.log(getFib(10));
+
+
+//function prime number, receives a number parameter
+//determines the number is prime or not
+
+//how to figure out a prime number
+/**
+ * prime number is divisible by itself and one
+ *find out the factors that make up the number
+ * if the factors are two  numbers the number is prime
+* */
+
+// function isPrime(num){
+//     for(var i = 2; i < num; i++) {
+//         if(num % i === 0) {
+//             return false;
+//         }
+//     }
+//     return true;
+//
+// }
+//
+// console.log(" is prime? " + isPrime(15));
+// console.log(" is prime? " + isPrime(7));
+// console.log(" is prime? " + isPrime(3));
+// console.log(" is prime? " + isPrime(5));
+// console.log(" is prime? " + isPrime(1234567891234567891));
