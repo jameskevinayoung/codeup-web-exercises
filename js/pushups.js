@@ -523,3 +523,35 @@ console.log(getFibonacci(10));
 // console.log(" is prime? " + isPrime(3));
 // console.log(" is prime? " + isPrime(5));
 // console.log(" is prime? " + isPrime(1234567891234567891));
+
+
+const movies =[
+    {
+        name: 'Hercules',
+        price: 3.50
+    },
+    {
+        name: 'Little Mermaid',
+        price: 5.00
+    },
+    {
+        name: 'Brother Bear',
+        price: 7.50
+    }
+]
+
+function totalCost(array,day){
+    let priceTotal = 0;
+
+    array.forEach(function(movie){
+        priceTotal += movie.price * day;
+
+    });
+    return priceTotal;
+
+}
+
+console.log(totalCost(movies, 5));
+
+
+
