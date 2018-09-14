@@ -299,47 +299,47 @@
 //
 // })();
 
-let dogs = [
-    {
-        name:"Annie",
-        age: 3,
-        breed: "labradoodle",
-        sex: "female",
-    },
-    {
-        name: "Roxanne",
-        age: 7,
-        breed: "Cocker Spaniel",
-        sex: "female",
-    },
-    {
-        name:"Roscoe",
-        age: 5,
-        breed: "American Pit-Bull",
-        sex: "male",
-        nobleHound: true,
-    },
-    {
-        name:"Frisky",
-        age: 6,
-        breed: "German Shepard",
-        sex: "male"
-    },
-    {
-        name:"Pookie",
-        age: 2,
-        breed: "American Pit-Bull",
-        sex: "female",
-    },
-    {
-        name:"Snoopadoop",
-        age: 2,
-        breed: "Cockapoo",
-        nobleHound: true,
-        sex: "female",
-    },
-
-];
+// let dogs = [
+//     {
+//         name:"Annie",
+//         age: 3,
+//         breed: "labradoodle",
+//         sex: "female",
+//     },
+//     {
+//         name: "Roxanne",
+//         age: 7,
+//         breed: "Cocker Spaniel",
+//         sex: "female",
+//     },
+//     {
+//         name:"Roscoe",
+//         age: 5,
+//         breed: "American Pit-Bull",
+//         sex: "male",
+//         nobleHound: true,
+//     },
+//     {
+//         name:"Frisky",
+//         age: 6,
+//         breed: "German Shepard",
+//         sex: "male"
+//     },
+//     {
+//         name:"Pookie",
+//         age: 2,
+//         breed: "American Pit-Bull",
+//         sex: "female",
+//     },
+//     {
+//         name:"Snoopadoop",
+//         age: 2,
+//         breed: "Cockapoo",
+//         nobleHound: true,
+//         sex: "female",
+//     },
+//
+// ];
 
 // write a function that receives an array of animals
 // loops over them, and writes out the ones that
@@ -475,17 +475,17 @@ let dogs = [
  *
  * */
 
-const getFibonacci = n => { //function that takes a number and returns the fibonacci sequence
-    let fibArray = [1,1]; //initialize array with the first two indexes [0,1], but since the index
-    for(let i =1 ; i < n-1;i++){ //use loop to increment the sequence beginning with i = 1 because it was the last index of the array
-        //i will increment while it is less than the parameter - 1,because index starts at 0
-        fibArray.push(fibArray[i] + fibArray[i-1]) //push the current i index plus the index of i - 1 (the previous index) to array
-    }
-    return fibArray; //return the array
-}
-
-
-console.log(getFibonacci(10));
+// const getFibonacci = n => { //function that takes a number and returns the fibonacci sequence
+//     let fibArray = [1,1]; //initialize array with the first two indexes [0,1], but since the index
+//     for(let i =1 ; i < n-1;i++){ //use loop to increment the sequence beginning with i = 1 because it was the last index of the array
+//         //i will increment while it is less than the parameter - 1,because index starts at 0
+//         fibArray.push(fibArray[i] + fibArray[i-1]) //push the current i index plus the index of i - 1 (the previous index) to array
+//     }
+//     return fibArray; //return the array
+// }
+//
+//
+// console.log(getFibonacci(10));
 
 
 // const getFib = n =>{
@@ -561,8 +561,29 @@ console.log(getFibonacci(10));
 // The full list can be found here: http://www.w3schools.com/cssref/css_colornames.asp
 // Use it as you please, 'cuz you can't, like, own a color, man.
 
-var CSS_COLOR_NAMES = ["AliceBlue","AntiqueWhite","Aqua","Aquamarine","Azure","Beige","Bisque","Black","BlanchedAlmond","Blue","BlueViolet","Brown","BurlyWood","CadetBlue","Chartreuse","Chocolate","Coral","CornflowerBlue","Cornsilk","Crimson","Cyan","DarkBlue","DarkCyan","DarkGoldenRod","DarkGray","DarkGrey","DarkGreen","DarkKhaki","DarkMagenta","DarkOliveGreen","Darkorange","DarkOrchid","DarkRed","DarkSalmon","DarkSeaGreen","DarkSlateBlue","DarkSlateGray","DarkSlateGrey","DarkTurquoise","DarkViolet","DeepPink","DeepSkyBlue","DimGray","DimGrey","DodgerBlue","FireBrick","FloralWhite","ForestGreen","Fuchsia","Gainsboro","GhostWhite","Gold","GoldenRod","Gray","Grey","Green","GreenYellow","HoneyDew","HotPink","IndianRed","Indigo","Ivory","Khaki","Lavender","LavenderBlush","LawnGreen","LemonChiffon","LightBlue","LightCoral","LightCyan","LightGoldenRodYellow","LightGray","LightGrey","LightGreen","LightPink","LightSalmon","LightSeaGreen","LightSkyBlue","LightSlateGray","LightSlateGrey","LightSteelBlue","LightYellow","Lime","LimeGreen","Linen","Magenta","Maroon","MediumAquaMarine","MediumBlue","MediumOrchid","MediumPurple","MediumSeaGreen","MediumSlateBlue","MediumSpringGreen","MediumTurquoise","MediumVioletRed","MidnightBlue","MintCream","MistyRose","Moccasin","NavajoWhite","Navy","OldLace","Olive","OliveDrab","Orange","OrangeRed","Orchid","PaleGoldenRod","PaleGreen","PaleTurquoise","PaleVioletRed","PapayaWhip","PeachPuff","Peru","Pink","Plum","PowderBlue","Purple","Red","RosyBrown","RoyalBlue","SaddleBrown","Salmon","SandyBrown","SeaGreen","SeaShell","Sienna","Silver","SkyBlue","SlateBlue","SlateGray","SlateGrey","Snow","SpringGreen","SteelBlue","Tan","Teal","Thistle","Tomato","Turquoise","Violet","Wheat","White","WhiteSmoke","Yellow","YellowGreen"];
+// var CSS_COLOR_NAMES = ["AliceBlue","AntiqueWhite","Aqua","Aquamarine","Azure","Beige","Bisque","Black","BlanchedAlmond","Blue","BlueViolet","Brown","BurlyWood","CadetBlue","Chartreuse","Chocolate","Coral","CornflowerBlue","Cornsilk","Crimson","Cyan","DarkBlue","DarkCyan","DarkGoldenRod","DarkGray","DarkGrey","DarkGreen","DarkKhaki","DarkMagenta","DarkOliveGreen","Darkorange","DarkOrchid","DarkRed","DarkSalmon","DarkSeaGreen","DarkSlateBlue","DarkSlateGray","DarkSlateGrey","DarkTurquoise","DarkViolet","DeepPink","DeepSkyBlue","DimGray","DimGrey","DodgerBlue","FireBrick","FloralWhite","ForestGreen","Fuchsia","Gainsboro","GhostWhite","Gold","GoldenRod","Gray","Grey","Green","GreenYellow","HoneyDew","HotPink","IndianRed","Indigo","Ivory","Khaki","Lavender","LavenderBlush","LawnGreen","LemonChiffon","LightBlue","LightCoral","LightCyan","LightGoldenRodYellow","LightGray","LightGrey","LightGreen","LightPink","LightSalmon","LightSeaGreen","LightSkyBlue","LightSlateGray","LightSlateGrey","LightSteelBlue","LightYellow","Lime","LimeGreen","Linen","Magenta","Maroon","MediumAquaMarine","MediumBlue","MediumOrchid","MediumPurple","MediumSeaGreen","MediumSlateBlue","MediumSpringGreen","MediumTurquoise","MediumVioletRed","MidnightBlue","MintCream","MistyRose","Moccasin","NavajoWhite","Navy","OldLace","Olive","OliveDrab","Orange","OrangeRed","Orchid","PaleGoldenRod","PaleGreen","PaleTurquoise","PaleVioletRed","PapayaWhip","PeachPuff","Peru","Pink","Plum","PowderBlue","Purple","Red","RosyBrown","RoyalBlue","SaddleBrown","Salmon","SandyBrown","SeaGreen","SeaShell","Sienna","Silver","SkyBlue","SlateBlue","SlateGray","SlateGrey","Snow","SpringGreen","SteelBlue","Tan","Teal","Thistle","Tomato","Turquoise","Violet","Wheat","White","WhiteSmoke","Yellow","YellowGreen"];
+//
+//
+//
+// Collapse 
 
 
+//create a function that receives an array of numbers and returns an array in ascending order
 
-Collapse 
+
+// function sortArray(array){
+//     let numArray = [];
+//
+//     for(let i = 0; i < array.length; i++){
+//         let smallest= array[0];
+//         if (i < array[i]){
+//             smallest = i;
+//             numArray.push(smallest)
+//         }
+//     }
+//
+//
+// }
+//
+//
+// sortArray([4,6,2,8,1,9,7,3])
