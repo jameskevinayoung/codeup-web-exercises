@@ -447,27 +447,14 @@
 //
 // //USE FOREACH
 
-// function getFibonacci(number) {
-//
-//     var first = 0;
-//     var second = 1;
-//     var numArray= [];
-//     var next;
-//
-//     for(var i = 0; i < number.length; i++){
-//         if(i === 0){
-//             first === 1;
-//             console.log(numArray);
-//         // }else if(i < number.length){
-//         //     next = first + second;
-//         //     return numArray.push(next)
-//         }
+// function fibonacci (number){
+//     let array = [1,1];
+//     for(let i = 1; i<number - 1; i++){
+//        array.push(array[i] + array[i-1]);
 //     }
-//
-//     return first;
+//     return array;
 // }
-// console.log(getFibonacci(10))
-
+// console.log(fibonacci(10));
 /**
  *
  *
@@ -475,7 +462,7 @@
  *
  * */
 
-// const getFibonacci = n => { //function that takes a number and returns the fibonacci sequence
+// let getFibonacci = n => { //function that takes a number and returns the fibonacci sequence
 //     let fibArray = [1,1]; //initialize array with the first two indexes [0,1], but since the index
 //     for(let i =1 ; i < n-1;i++){ //use loop to increment the sequence beginning with i = 1 because it was the last index of the array
 //         //i will increment while it is less than the parameter - 1,because index starts at 0
@@ -488,14 +475,7 @@
 // console.log(getFibonacci(10));
 
 
-// const getFib = n =>{
-//     let fib = [];
-//     if(n ===0) fib.push(0)
-//     else if (n ==1) fib.push(1)
-//     else fib.push(getFib[n-1] + getFib[n-2]);
-//     return fib.join;
-// }
-// console.log(getFib(10));
+
 
 
 //function prime number, receives a number parameter
@@ -587,3 +567,18 @@
 //
 //
 // sortArray([4,6,2,8,1,9,7,3])
+
+
+
+// function FizzyBuzz(n){
+//
+//     for(let i = 1; i<= n; i++){
+//         if(i%15 === 0){console.log("FIZZBUZZ");}
+//         else if (i% 5 === 0){console.log("buzz");}
+//         else if (i% 3 === 0){console.log("fizz");}
+//         else{console.log(i);}
+//     }
+//
+// }
+//
+// FizzyBuzz(100);
