@@ -19,6 +19,29 @@
 
 //returns the longest word
 
+function longest(wordArray){
+    var longestWord = "";
+    for(var i = 0; i < wordArray.length; i++){
+        if(longestWord.length < wordArray[i].length){
+            longestWord = wordArray[i];
+        }
+    }
+        return longestWord;
+}
+console.log(longest(["apple", "donkey", "fibonacci"]));
+
+
+function longestStringForLoop(arr) {
+    let word = "";
+    for (let i = 0; i < arr.length; i++) {
+        if (word.length < arr[i].length) {
+            word = arr[i];
+        }
+    }
+    return word;
+}
+
+console.log(longestStringForLoop(["apple", "donkey", "fibonacci"]));
 
 // function squareParameters(a, b, c){
 //     var aSquared = a * a;
@@ -461,7 +484,7 @@
  *
  *
  * */
-
+//
 // let getFibonacci = n => { //function that takes a number and returns the fibonacci sequence
 //     let fibArray = [1,1]; //initialize array with the first two indexes [0,1], but since the index
 //     for(let i =1 ; i < n-1;i++){ //use loop to increment the sequence beginning with i = 1 because it was the last index of the array
@@ -473,10 +496,16 @@
 //
 //
 // console.log(getFibonacci(10));
-
-
-
-
+//
+// function fibRecursion(number){
+//
+//     if(number < 2){
+//         return number
+//     }
+//     return (fibRecursion(number - 1) + fibRecursion(number-2));
+// }
+//
+// console.log(fibRecursion(10));
 
 //function prime number, receives a number parameter
 //determines the number is prime or not
@@ -555,18 +584,18 @@
 //     let numArray = [];
 //
 //     for(let i = 0; i < array.length; i++){
-//         let smallest= array[0];
-//         if (i < array[i]){
+//         let smallest = array[i].length;
+//         if (smallest < array[i]){
 //             smallest = i;
 //             numArray.push(smallest)
 //         }
 //     }
-//
+//  return numArray;
 //
 // }
 //
 //
-// sortArray([4,6,2,8,1,9,7,3])
+// sortArray([4,6,2,8,1,9,7,3]);
 
 
 
